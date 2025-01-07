@@ -32,11 +32,13 @@ Then, Hydrate password.sh with the following values
 * MYSQL_PREPROD_DB
 * MYSQL_PREPROD_PASSWORD
 * MYSQL_PREPROD_USER
+* MYSQL_PREPROD_HOST
 
 #### For Prod : 
 
 * MYSQL_PASSWORD
 * MYSQL_USER
 * MYSQL_DB
+* MYSQL_HOST
 * PREPROD_USER
 * PREPROD_IP

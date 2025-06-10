@@ -12,7 +12,7 @@ ssh-add -l
 echo 'Identity added';
 
 echo 'Copying dump to preprod';
-scp $LAST_DUMP_PATH $PREPROD_USER@$PREPROD_IP:~/dump.sql
+scp $LAST_DUMP_PATH $PREPROD_USER@$PREPROD_IP:~/dump.sql.gz
 echo 'Dump copied';
 
 sh ./end_timestamp.sh

@@ -11,7 +11,7 @@ export BACKUP_FOLDER=$HOME'/backup';
 DUMPS_FOLDER=$HOME'/dumps';
 export MONTHLY_BACKUP_FOLDER=$DUMPS_FOLDER'/monthly';
 export YEARLY_BACKUP_FOLDER=$DUMPS_FOLDER'/yearly';
-DUMP_FILE_NAME=$(printf "backup_dump_%s.sql" "$CURRENT_DATE");
+DUMP_FILE_NAME=$(printf "backup_dump_%s.sql.gz" "$CURRENT_DATE");
 export DUMP_FILE_PATH="$DUMPS_FOLDER/$DUMP_FILE_NAME";
 
 LAST_DUMP_NAME='';
